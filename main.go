@@ -33,7 +33,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 
 	payload := responsePayload{
 		Data:    "Welcome! " + hostname,
-		Version: "v3.1",
+		Version: "v3.2",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
